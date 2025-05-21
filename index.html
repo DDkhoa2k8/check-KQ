@@ -35,7 +35,7 @@
             const data = await response.json();
             console.log("Kết quả từ function:", data);
 
-            document.getElementById('out').innerHTML = "Phan thuong:" + data.data.DSTrung_Thuong.trung_thuong_txt + "\n Thoi gian:" + data.data.thoi_gian;
+            document.getElementById('out').innerHTML = "Phan thuong:" + data.data.DSTrungThuong.trung_thuong_txt + "\n Thoi gian:" + data.data.thoi_gian;
 
             return data;
         }
